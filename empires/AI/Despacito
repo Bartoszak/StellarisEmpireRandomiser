@@ -1,0 +1,129 @@
+"Despacito"={
+	key="Despacito"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="MACHINE"
+		portrait="sd_art_robot"
+		species_name={
+			key="Russian Bee"
+			literal=yes
+		}
+		species_plural={
+			key="Russiam Bees"
+			literal=yes
+		}
+		species_adjective={
+			key="Russian Bees"
+			literal=yes
+		}
+		name_list="MACHINE3"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human_legacy"
+		species_name={
+			key="Overworked Security Guard"
+			literal=yes
+		}
+		species_plural={
+			key="Overworked Security Guards"
+			literal=yes
+		}
+		species_adjective={
+			key="Overworked Security Guards"
+			literal=yes
+		}
+		name_list="HUMAN1"
+		gender=male
+		trait="trait_rapid_breeders"
+		trait="trait_traditional"
+		trait="trait_fleeting"
+		trait="trait_conservational"
+		trait="trait_weak"
+	}
+	name={
+		key="Despacito"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Unions"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name={
+		key="Secret Hideout"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name={
+		key="Secret Hideout"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_06.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"bright_yellow"
+			"shadow_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="Dr Bees"
+				literal=yes
+			}
+		}
+		portrait="sd_art_robot"
+		texture=2
+		attachment=0
+		clothes=0
+		ruler_title={
+			key="Beeologist"
+			literal=yes
+		}
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_replication"
+	}
+	origin="origin_default"
+}

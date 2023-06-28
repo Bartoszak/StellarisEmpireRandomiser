@@ -1,0 +1,124 @@
+"Sugar, Spice and Everything Nice"={
+	key="Sugar, Spice and Everything Nice"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="MOL"
+		portrait="mol16"
+		species_name={
+			key="Syn kolezanki matki"
+			literal=yes
+		}
+		species_plural={
+			key="Synowie kolezanki matki"
+			literal=yes
+		}
+		species_adjective={
+			key="Syna kolezanki matki"
+			literal=yes
+		}
+		name_list="HIVE1"
+		gender=male
+		trait="trait_hive_mind"
+		trait="trait_rapid_breeders"
+		trait="trait_extremely_adaptive"
+		trait="trait_unruly"
+		trait="trait_sedentary"
+		trait="trait_slow_learners"
+	}
+	name={
+		key="%ADJ%"
+		variables={
+			{
+				key="1"
+				value={
+					key="Syna kolezanki matki"
+					variables={
+						{
+							key="1"
+							value={
+								key="Entity"
+							}
+						}
+
+					}
+				}
+			}
+
+		}
+	}
+	adjective={
+		key="Syna kolezanki matki"
+	}
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name={
+		key="Wylengarnia"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name={
+		key="Wylengaria"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_24.dds"
+		}
+		colors={
+			"frog_green"
+			"pink"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="%LEADER_2%"
+				variables={
+					{
+						key="1"
+						value={
+							key="HIVE1_CHR_Motile_Assemblage"
+						}
+					}
+ {
+						key="2"
+						value={
+							key="HIVE1_CHR_Author"
+						}
+					}
+
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="G16_1"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hive_mind_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_subspace_ephapse"
+		"civic_hive_divided_attention"
+	}
+	origin="origin_default"
+}
